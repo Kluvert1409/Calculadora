@@ -61,6 +61,7 @@ public class InterfaceGUI extends JFrame implements ActionListener {
         botaoClear.setFont(new Font("Arial", PLAIN, 20));
         botaoClear.setBackground(new Color(66, 66, 66));
         botaoClear.setForeground(Color.white);
+        botaoClear.setFocusPainted(false);
         add(botaoClear);
 
         botaoAdd = new JButton("+");
@@ -68,6 +69,7 @@ public class InterfaceGUI extends JFrame implements ActionListener {
         botaoAdd.setFont(new Font("Arial", PLAIN, 20));
         botaoAdd.setBackground(new Color(66, 66, 66));
         botaoAdd.setForeground(Color.white);
+        botaoAdd.setFocusPainted(false);
         add(botaoAdd);
 
         botaoSub = new JButton("-");
@@ -75,6 +77,7 @@ public class InterfaceGUI extends JFrame implements ActionListener {
         botaoSub.setFont(new Font("Arial", PLAIN, 20));
         botaoSub.setBackground(new Color(66, 66, 66));
         botaoSub.setForeground(Color.white);
+        botaoSub.setFocusPainted(false);
         add(botaoSub);
 
         botaoMul = new JButton("x");
@@ -82,6 +85,7 @@ public class InterfaceGUI extends JFrame implements ActionListener {
         botaoMul.setFont(new Font("Arial", PLAIN, 20));
         botaoMul.setBackground(new Color(66, 66, 66));
         botaoMul.setForeground(Color.white);
+        botaoMul.setFocusPainted(false);
         add(botaoMul);
 
         botaoDiv = new JButton("÷");
@@ -89,6 +93,7 @@ public class InterfaceGUI extends JFrame implements ActionListener {
         botaoDiv.setFont(new Font("Arial", PLAIN, 20));
         botaoDiv.setBackground(new Color(66, 66, 66));
         botaoDiv.setForeground(Color.white);
+        botaoDiv.setFocusPainted(false);
         add(botaoDiv);
 
         botaoIgual = new JButton("=");
@@ -96,6 +101,7 @@ public class InterfaceGUI extends JFrame implements ActionListener {
         botaoIgual.setFont(new Font("Arial", PLAIN, 20));
         botaoIgual.setBackground(new Color(66, 66, 66));
         botaoIgual.setForeground(Color.white);
+        botaoIgual.setFocusPainted(false);
         add(botaoIgual);
 
         botaoVirgula = new JButton(",");
@@ -103,6 +109,7 @@ public class InterfaceGUI extends JFrame implements ActionListener {
         botaoVirgula.setFont(new Font("Arial", PLAIN, 20));
         botaoVirgula.setBackground(new Color(102, 102, 102));
         botaoVirgula.setForeground(Color.white);
+        botaoVirgula.setFocusPainted(false);
         add(botaoVirgula);
 
         for (int i = 0; i < 10; i++) {
@@ -110,6 +117,7 @@ public class InterfaceGUI extends JFrame implements ActionListener {
             numberButtons[i].setBackground(new Color(102, 102, 102));
             numberButtons[i].setForeground(Color.white);
             numberButtons[i].setFont(new Font("Arial", PLAIN, 20));
+            numberButtons[i].setFocusPainted(false);
             add(numberButtons[i]);
         }
 
